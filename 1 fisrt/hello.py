@@ -1,0 +1,1 @@
+print("you are learning path:\n\t-python basic\n\t- Data Engeneering\n\t-Ai")  

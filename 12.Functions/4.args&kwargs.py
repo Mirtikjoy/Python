@@ -10,7 +10,7 @@ total(25,10,20)
 # ** = kwargs
 
 def user_define(**users):
-    print(users)
+    print(users) #returns dictionary
 
 user_define(user_name = "mirtik joy molsom",
             age = 21,

@@ -1,6 +1,11 @@
 num = int(input("please enter the number: "))
 
 def reverseNum(num):
+    """ gives the reverse of the number,
+    first we do take the reminder and put it in revnum and delete the last number and it goes as long as number is greater
+    than zero
+    
+    """
 
     revNumb = 0
     while num > 0:

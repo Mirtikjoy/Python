@@ -6,6 +6,8 @@ numb2 = int(input("please enter the number: "))
 # print(math.gcd(numb1,numb2))
 
 def leasts(num1,num2):
+    """ gives the smallest number
+    """
     if (numb1 < numb2):
         return numb1
     else:
@@ -19,6 +21,8 @@ def gcd_cal(numb1,numb2):
     i = 2
     least = leasts(numb1,numb2)
     while (i <= least):
+        
+
         if (numb1 % i == 0 and numb2 % i == 0):
             gcd = i
 

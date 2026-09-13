@@ -1,4 +1,5 @@
 def no_Of_Digits(num):
+    """ this gives us the number of digits in our number for ex = 123 is 3 digits"""
 
     mydigits = 0
     while(num > 0):
@@ -7,6 +8,17 @@ def no_Of_Digits(num):
     return mydigits
 
 def power(num1,num2):
+    """ this calculates our power ex power(2,5) so it will go and give us 2^5
+    i = 0: result = 1 × 2 = 2
+
+    i = 1: result = 2 × 2 = 4
+
+    i = 2: result = 4 × 2 = 8
+
+    i = 3: result = 8 × 2 = 16
+
+    i = 4: result = 16 × 2 = 32
+    """
     result = 1
     i = 0
     while(i < num2):

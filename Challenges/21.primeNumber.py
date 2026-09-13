@@ -1,10 +1,12 @@
 numb = int(input("please enter the number: "))
 
 def prime(num):
+
     if num < 2:
         return False
     i = 2
     while i < num:
+        """ calculates only the prime numbers means which is not divisible by any numbers"""
         if num % i == 0:
             return False
         i += 1

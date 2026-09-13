@@ -7,6 +7,8 @@ def digits(num):
     
     sum = 0
     while num != 0:
+      """this will add all the digits of the numbers
+      """
       sum += num % 10
       num /= 10
 

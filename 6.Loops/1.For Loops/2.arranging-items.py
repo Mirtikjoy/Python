@@ -6,4 +6,5 @@ for item in items:
     item = item.strip().lower().replace(".txt", ".csv ")
     new_items.append(item)
 
-print("Items:", ", ".join(new_items))
+# print("Items:", ", ".join(new_items))
+print(new_items)

@@ -9,6 +9,8 @@ import statistics
 #     i +=1
 
 
+
+
 numbers = list(map(int, input("Enter numbers: ").split()))
 average = statistics.mean(numbers)
 
